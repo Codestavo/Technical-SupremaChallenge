@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCuttin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.CrossCutting.SupremaChallenge", "Infra\CrossCutting\Infra.CrossCutting.SupremaChallenge\Infra.CrossCutting.SupremaChallenge.csproj", "{B522ED9D-AD25-4366-975A-FB3F890C94B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{83EA3F3E-51F5-4C4C-BEE9-3EF1DF3CE29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.SupremaChallenge", "UnitTests\UnitTests.SupremaChallenge\UnitTests.SupremaChallenge.csproj", "{47F3B873-D362-47E1-83B7-10D0E415324B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,11 +42,16 @@ Global
 		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F3B873-D362-47E1-83B7-10D0E415324B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F3B873-D362-47E1-83B7-10D0E415324B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F3B873-D362-47E1-83B7-10D0E415324B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F3B873-D362-47E1-83B7-10D0E415324B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A819B6E3-4063-4162-9943-A293E6C6C4C9} = {C858A54E-59F7-4FFB-9C33-767E5BA8F471}
 		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8} = {71FDB2BD-BD98-43E1-8215-C49EBF46F87E}
 		{75ECFF68-9A47-4692-A984-17218E692368} = {3605136C-F681-43C5-B389-A49A0EC5F7C3}
 		{B522ED9D-AD25-4366-975A-FB3F890C94B8} = {75ECFF68-9A47-4692-A984-17218E692368}
+		{47F3B873-D362-47E1-83B7-10D0E415324B} = {83EA3F3E-51F5-4C4C-BEE9-3EF1DF3CE29C}
 	EndGlobalSection
 EndGlobal
