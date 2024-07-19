@@ -1,0 +1,6 @@
+@Application.SupremaChallenge_HostAddress = http://localhost:5003
+
+GET {{Application.SupremaChallenge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
