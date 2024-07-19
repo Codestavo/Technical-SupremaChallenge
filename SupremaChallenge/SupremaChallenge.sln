@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C858A54E-59F7-4FFB-9C33-767E5BA8F471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.SupremaChallenge", "Application\Application.SupremaChallenge\Application.SupremaChallenge.csproj", "{A819B6E3-4063-4162-9943-A293E6C6C4C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{71FDB2BD-BD98-43E1-8215-C49EBF46F87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.SupremaChallenge", "Services\Services.SupremaChallenge\Services.SupremaChallenge.csproj", "{DAF73CEF-63C0-4C87-8194-5BCD14064CA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{3605136C-F681-43C5-B389-A49A0EC5F7C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{75ECFF68-9A47-4692-A984-17218E692368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.CrossCutting.SupremaChallenge", "Infra\CrossCutting\Infra.CrossCutting.SupremaChallenge\Infra.CrossCutting.SupremaChallenge.csproj", "{B522ED9D-AD25-4366-975A-FB3F890C94B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A819B6E3-4063-4162-9943-A293E6C6C4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A819B6E3-4063-4162-9943-A293E6C6C4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A819B6E3-4063-4162-9943-A293E6C6C4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A819B6E3-4063-4162-9943-A293E6C6C4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B522ED9D-AD25-4366-975A-FB3F890C94B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A819B6E3-4063-4162-9943-A293E6C6C4C9} = {C858A54E-59F7-4FFB-9C33-767E5BA8F471}
+		{DAF73CEF-63C0-4C87-8194-5BCD14064CA8} = {71FDB2BD-BD98-43E1-8215-C49EBF46F87E}
+		{75ECFF68-9A47-4692-A984-17218E692368} = {3605136C-F681-43C5-B389-A49A0EC5F7C3}
+		{B522ED9D-AD25-4366-975A-FB3F890C94B8} = {75ECFF68-9A47-4692-A984-17218E692368}
+	EndGlobalSection
+EndGlobal
